@@ -86,6 +86,7 @@ public class AnnotatedTypeNameTest {
     TypeName type = TypeName.get(String.class).annotated(NEVER_NULL);
     String actual = WildcardTypeName.supertypeOf(type).toString();
     assertEquals(expected, actual);
+    assertFalse(type.equals(null));
   }
 
   @Test public void annotatedWildcardTypeNameWithExtends() {
