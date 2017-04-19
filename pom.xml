@@ -51,6 +51,19 @@
   </organization>
 
   <dependencies>
+
+    <dependency>
+      <groupId>org.evosuite</groupId>
+      <artifactId>evosuite-master</artifactId>
+      <version>1.0.5-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.evosuite</groupId>
+      <artifactId>evosuite-runtime</artifactId>
+      <version>1.0.5-SNAPSHOT</version>
+    </dependency>
+
     <dependency>
       <groupId>com.google.truth</groupId>
       <artifactId>truth</artifactId>
